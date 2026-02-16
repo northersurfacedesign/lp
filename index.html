@@ -1,123 +1,165 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northern Surface Design | Exterior Rendering</title>
+    
+    <!-- Scripts must be in the head for GitHub/Convertri to parse correctly -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Playfair+Display:wght@700&display=swap');
+        
+        :root {
+            --gold: #c5a059;
+            --slate: #4a4541;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafb;
+            color: #1a202c;
+        }
+
+        .serif { font-family: 'Playfair Display', serif; }
+        
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .sticky-banner {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+    </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Northern Surface Design | Exterior Rendering&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Use standard CDN links for best compatibility --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;family=Playfair+Display:wght@700&amp;display=swap');</p>
-<p class="p1"><span class="Apple-converted-space">        </span>:root { --gold: #c5a059; --slate: #4a4541; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background-color: #f9fafb; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.serif { font-family: 'Playfair Display', serif; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.hero {<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;q=80&amp;w=1200');</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-size: cover;<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-position: center;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Sticky Offer Banner --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="bg-[#c5a059] text-white text-center py-3 font-bold sticky top-0 z-50 shadow-lg px-4 text-sm md:text-base"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>PRICE MATCH PROMISE: We beat any genuine like-for-like quote by £100!</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Navigation --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav class="bg-white py-6 shadow-sm"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container mx-auto px-6 flex justify-between items-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="font-bold text-xl tracking-tighter text-[#4a4541]"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>NORTHERN &lt;span class="text-[#c5a059]"&gt;SURFACE DESIGN&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#quote" class="bg-[#4a4541] text-white px-6 py-2 rounded font-bold text-sm hover:bg-black transition"&gt;GET QUOTE&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Main Hero Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="hero text-white py-32 md:py-48 text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container mx-auto px-6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="serif text-5xl md:text-8xl mb-6"&gt;Elevating Exteriors.&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-lg md:text-2xl mb-10 max-w-2xl mx-auto opacity-90 font-light"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Premium Silicone and Monocouche rendering systems with a 10-year manufacturer guarantee.</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#quote" class="bg-[#c5a059] px-10 py-5 rounded-full font-bold text-lg inline-block shadow-xl hover:scale-105 transition transform"&gt;Request Free Survey&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Rendering Systems Info --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="py-20 container mx-auto px-6 grid md:grid-cols-2 gap-12"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="bg-white p-10 rounded-2xl shadow-xl border-t-8 border-[#c5a059]"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="serif text-3xl mb-4 text-[#4a4541]"&gt;Silicone Rendering&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-gray-600 mb-6 text-lg"&gt;The "Gore-Tex" of rendering. Highly breathable, flexible, and chemically designed to resist cracks and algae.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;ul class="space-y-3"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li class="flex items-center text-gray-700"&gt;&lt;i class="fas fa-check-circle text-[#c5a059] mr-3"&gt;&lt;/i&gt; Self-Cleaning Properties&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li class="flex items-center text-gray-700"&gt;&lt;i class="fas fa-check-circle text-[#c5a059] mr-3"&gt;&lt;/i&gt; 10 Year Manufacturer Guarantee&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li class="flex items-center text-gray-700"&gt;&lt;i class="fas fa-check-circle text-[#c5a059] mr-3"&gt;&lt;/i&gt; Never Needs Painting&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="bg-white p-10 rounded-2xl shadow-xl border-t-8 border-[#c5a059]"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="serif text-3xl mb-4 text-[#4a4541]"&gt;Monocouche Render&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-gray-600 mb-6 text-lg"&gt;A high-end, through-coloured "one-coat" finish. Provides a beautiful crisp texture with integrated colour.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;ul class="space-y-3"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li class="flex items-center text-gray-700"&gt;&lt;i class="fas fa-check-circle text-[#c5a059] mr-3"&gt;&lt;/i&gt; Vibrant, Uniform Finish&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li class="flex items-center text-gray-700"&gt;&lt;i class="fas fa-check-circle text-[#c5a059] mr-3"&gt;&lt;/i&gt; Superior Weather Protection&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;li class="flex items-center text-gray-700"&gt;&lt;i class="fas fa-check-circle text-[#c5a059] mr-3"&gt;&lt;/i&gt; Impact Resistant&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Contact Form Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="quote" class="py-24 bg-[#4a4541] text-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="container mx-auto px-6 max-w-2xl text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="serif text-4xl md:text-5xl mb-4"&gt;Get Your Free Quote&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="mb-12 text-gray-300"&gt;Fill in your details and Jack will be in touch to arrange your free site survey.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;form class="space-y-6 text-left" onsubmit="event.preventDefault(); alert('Request sent! Jack will contact you shortly.');"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;label class="block text-xs uppercase tracking-widest font-bold mb-2 opacity-70"&gt;Full Name&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;input type="text" placeholder="e.g. John Smith" class="w-full p-4 rounded-lg text-black outline-none focus:ring-2 focus:ring-[#c5a059]"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="grid md:grid-cols-2 gap-6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label class="block text-xs uppercase tracking-widest font-bold mb-2 opacity-70"&gt;Phone Number&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="tel" placeholder="07123 456789" class="w-full p-4 rounded-lg text-black outline-none focus:ring-2 focus:ring-[#c5a059]"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;label class="block text-xs uppercase tracking-widest font-bold mb-2 opacity-70"&gt;Postcode&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;input type="text" placeholder="PR1 1AA" class="w-full p-4 rounded-lg text-black outline-none focus:ring-2 focus:ring-[#c5a059]"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;button type="submit" class="w-full bg-[#c5a059] p-5 rounded-lg font-black text-xl uppercase tracking-widest shadow-lg hover:bg-[#b08e4d] transition"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>Submit Quote Request</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Simple Footer --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer class="py-12 bg-white text-center border-t"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="font-bold text-[#4a4541] tracking-widest uppercase"&gt;Northern Surface Design&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="text-gray-400 text-sm mt-2"&gt;© 2024 Northern Surface Design. All rights reserved.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+
+    <!-- Price Match Banner -->
+    <div class="sticky-banner bg-[#c5a059] text-white text-center py-3 px-4 font-bold shadow-lg">
+        <p class="text-sm md:text-base">
+            <i class="fas fa-certificate mr-2"></i> PRICE MATCH PROMISE: We beat any genuine quote by £100!
+        </p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-white py-6 border-b border-gray-100">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="w-10 h-10 bg-[#c5a059] rounded-lg flex items-center justify-center mr-3 shadow-md">
+                    <i class="fas fa-home text-white"></i>
+                </div>
+                <div>
+                    <span class="block font-black text-xl leading-none text-[#4a4541]">NORTHERN</span>
+                    <span class="block text-[10px] tracking-[0.3em] font-bold text-[#c5a059] uppercase">Surface Design</span>
+                </div>
+            </div>
+            <a href="#quote" class="bg-[#4a4541] text-white px-6 py-2 rounded-full font-bold text-xs hover:bg-black transition">FREE QUOTE</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg text-white py-24 md:py-48">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-[#c5a059] uppercase tracking-[0.4em] text-xs font-black mb-6">Expert Rendering Services</h2>
+            <h1 class="serif text-5xl md:text-8xl mb-8 leading-tight">Elevating Exteriors.</h1>
+            <p class="text-lg md:text-2xl text-gray-200 mb-12 max-w-2xl mx-auto font-light">
+                Specialists in high-performance Silicone and Monocouche systems. Premium quality with a 10-year manufacturer guarantee.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#quote" class="bg-[#c5a059] px-10 py-5 rounded-full font-black text-lg shadow-2xl hover:brightness-110 transition">Get My Free Quote</a>
+                <a href="#systems" class="bg-white/10 backdrop-blur-md px-10 py-5 rounded-full font-bold text-lg hover:bg-white/20 transition">Our Systems</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Trust Badges -->
+    <section class="py-12 bg-white border-b">
+        <div class="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="text-center">
+                <i class="fas fa-history text-2xl text-[#c5a059] mb-2"></i>
+                <p class="text-[10px] font-black uppercase tracking-widest text-gray-400">10+ Years Experience</p>
+            </div>
+            <div class="text-center">
+                <i class="fas fa-award text-2xl text-[#c5a059] mb-2"></i>
+                <p class="text-[10px] font-black uppercase tracking-widest text-gray-400">Certified Installers</p>
+            </div>
+            <div class="text-center">
+                <i class="fas fa-shield-alt text-2xl text-[#c5a059] mb-2"></i>
+                <p class="text-[10px] font-black uppercase tracking-widest text-gray-400">10 Year Guarantee</p>
+            </div>
+            <div class="text-center">
+                <i class="fas fa-check-circle text-2xl text-[#c5a059] mb-2"></i>
+                <p class="text-[10px] font-black uppercase tracking-widest text-gray-400">Price Match Beat</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Systems Section -->
+    <section id="systems" class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="serif text-4xl md:text-5xl text-[#4a4541] mb-4">The Science of Rendering</h2>
+                <div class="w-20 h-1 bg-[#c5a059] mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-white p-12 rounded-3xl shadow-xl border-t-8 border-[#c5a059]">
+                    <h3 class="text-2xl font-bold mb-4 text-[#4a4541]">Silicone Thin-Coat</h3>
+                    <p class="text-gray-600 mb-8 leading-relaxed">A breathable, highly flexible finish that acts like a "protective skin" for your home. It moves with the building to prevent cracks.</p>
+                    <ul class="space-y-4 text-sm text-gray-500 font-bold">
+                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> SELF-CLEANING SURFACE</li>
+                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> VIBRANT COLOUR RANGE</li>
+                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> MESH REINFORCED STRENGTH</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-12 rounded-3xl shadow-xl border-t-8 border-[#c5a059]">
+                    <h3 class="text-2xl font-bold mb-4 text-[#4a4541]">Monocouche Render</h3>
+                    <p class="text-gray-600 mb-8 leading-relaxed">A high-end, through-coloured one-coat finish. It offers a stunning modern texture and completely removes the need for painting.</p>
+                    <ul class="space-y-4 text-sm text-gray-500 font-bold">
+                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> COLOUR INTEGRATED FINISH</li>
+                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> IMPACT RESISTANT</li>
+                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> WEATHER PROOF SHIELD</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Form Section -->
+    <section id="quote" class="py-24 bg-[#4a4541]">
+        <div class="container mx-auto px-6 max-w-2xl bg-white p-12 rounded-[2rem] shadow-2xl">
+            <div class="text-center mb-10">
+                <h2 class="serif text-4xl text-[#4a4541] mb-2">Request Free Survey</h2>
+                <p class="text-gray-400 font-bold uppercase text-[10px] tracking-widest">Jack will contact you within 24 hours</p>
+            </div>
+            <form class="space-y-6" onsubmit="event.preventDefault(); alert('Request sent! We will call you soon.');">
+                <input type="text" placeholder="Full Name" class="w-full p-4 bg-gray-50 rounded-xl outline-none focus:ring-2 focus:ring-[#c5a059] transition" required>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <input type="tel" placeholder="Phone Number" class="w-full p-4 bg-gray-50 rounded-xl outline-none focus:ring-2 focus:ring-[#c5a059] transition" required>
+                    <input type="text" placeholder="Postcode" class="w-full p-4 bg-gray-50 rounded-xl outline-none focus:ring-2 focus:ring-[#c5a059] transition" required>
+                </div>
+                <button type="submit" class="w-full bg-[#c5a059] text-white py-5 rounded-xl font-black text-xl uppercase tracking-widest shadow-lg hover:brightness-110 transition">
+                    Submit Request
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-white text-center">
+        <p class="font-black text-[#4a4541] tracking-[0.2em] mb-2">NORTHERN SURFACE DESIGN</p>
+        <p class="text-xs text-gray-400">© 2024 Exterior Excellence Guaranteed.</p>
+    </footer>
+
 </body>
 </html>
