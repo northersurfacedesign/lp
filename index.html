@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Force browser to refresh and not cache -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
     <title>Northern Surface Design | Exterior Rendering</title>
     
-    <!-- Scripts must be in the head for GitHub/Convertri to parse correctly -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
@@ -63,6 +68,11 @@
                     <span class="block text-[10px] tracking-[0.3em] font-bold text-[#c5a059] uppercase">Surface Design</span>
                 </div>
             </div>
+            <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-gray-400">
+                <a href="#systems" class="hover:text-[#c5a059]">Systems</a>
+                <a href="#about" class="hover:text-[#c5a059]">About</a>
+                <a href="#quote" class="text-[#c5a059]">Contact</a>
+            </div>
             <a href="#quote" class="bg-[#4a4541] text-white px-6 py-2 rounded-full font-bold text-xs hover:bg-black transition">FREE QUOTE</a>
         </div>
     </nav>
@@ -105,7 +115,7 @@
     </section>
 
     <!-- Systems Section -->
-    <section id="systems" class="py-24">
+    <section id="systems" class="py-24 bg-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="serif text-4xl md:text-5xl text-[#4a4541] mb-4">The Science of Rendering</h2>
@@ -113,22 +123,22 @@
             </div>
             
             <div class="grid md:grid-cols-2 gap-12">
-                <div class="bg-white p-12 rounded-3xl shadow-xl border-t-8 border-[#c5a059]">
+                <div class="bg-gray-50 p-12 rounded-3xl shadow-sm border-t-8 border-[#c5a059]">
                     <h3 class="text-2xl font-bold mb-4 text-[#4a4541]">Silicone Thin-Coat</h3>
                     <p class="text-gray-600 mb-8 leading-relaxed">A breathable, highly flexible finish that acts like a "protective skin" for your home. It moves with the building to prevent cracks.</p>
                     <ul class="space-y-4 text-sm text-gray-500 font-bold">
-                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> SELF-CLEANING SURFACE</li>
-                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> VIBRANT COLOUR RANGE</li>
-                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> MESH REINFORCED STRENGTH</li>
+                        <li class="flex items-center"><i class="fas fa-check text-[#c5a059] mr-3"></i> SELF-CLEANING SURFACE</li>
+                        <li class="flex items-center"><i class="fas fa-check text-[#c5a059] mr-3"></i> VIBRANT COLOUR RANGE</li>
+                        <li class="flex items-center"><i class="fas fa-check text-[#c5a059] mr-3"></i> MESH REINFORCED STRENGTH</li>
                     </ul>
                 </div>
-                <div class="bg-white p-12 rounded-3xl shadow-xl border-t-8 border-[#c5a059]">
+                <div class="bg-gray-50 p-12 rounded-3xl shadow-sm border-t-8 border-[#c5a059]">
                     <h3 class="text-2xl font-bold mb-4 text-[#4a4541]">Monocouche Render</h3>
                     <p class="text-gray-600 mb-8 leading-relaxed">A high-end, through-coloured one-coat finish. It offers a stunning modern texture and completely removes the need for painting.</p>
                     <ul class="space-y-4 text-sm text-gray-500 font-bold">
-                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> COLOUR INTEGRATED FINISH</li>
-                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> IMPACT RESISTANT</li>
-                        <li><i class="fas fa-check text-[#c5a059] mr-3"></i> WEATHER PROOF SHIELD</li>
+                        <li class="flex items-center"><i class="fas fa-check text-[#c5a059] mr-3"></i> COLOUR INTEGRATED FINISH</li>
+                        <li class="flex items-center"><i class="fas fa-check text-[#c5a059] mr-3"></i> IMPACT RESISTANT</li>
+                        <li class="flex items-center"><i class="fas fa-check text-[#c5a059] mr-3"></i> WEATHER PROOF SHIELD</li>
                     </ul>
                 </div>
             </div>
